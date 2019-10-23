@@ -1,11 +1,14 @@
 .jumbotron {
-    border:2px solid tomato;
+    border:2px solid fuchsia;
+    background-image: url(images/neon_waves_3-2560x1440.jpg);
+    background-size: cover;
     background-color: black;
-    box-shadow: lightslategray 2px 2px 10px;
+    box-shadow: fuchsia 2px 2px 10px;
 }
 
 .jumbotron h1 {
-    color: tomato;
+    color: dodgerblue;
+    text-shadow: #F45E4C 0px 0px 4px;
     font-family: 'Luckiest Guy', cursive;
     animation-name: image;
     animation-iteration-count: initial;
@@ -14,7 +17,9 @@
 }
 
  p {
-    color: #17A33C;
+     font-size: 2rem;
+     text-shadow: fuchsia 0px 0px 4px;
+    color: black;
     font-family: 'Luckiest Guy', cursive;
     margin: 20px;
     animation-name: animate;
@@ -26,8 +31,8 @@
 .img-circle {
     width: 200px;
     border-radius: 50%;
-    border: 1px solid tomato;
-    box-shadow: tomato 0px 0px 10px; 
+    border: 1px solid fuchsia;
+    box-shadow: fuchsia 0px 0px 10px; 
     animation-name: image;
     animation-iteration-count: initial;
     animation-duration: 2.2s;
@@ -37,7 +42,8 @@
 .fab {
     margin: 10px;
     font-size: 58px;
-    color:#51F07B;
+    color:black;
+    text-shadow: dodgerblue 0px 0px 4px;
     animation-name: animate;
     animation-iteration-count: initial;
     animation-duration: 2.2s;
@@ -70,7 +76,6 @@
 .fab:hover {
     transform: scale(1.2);
     transition: all ease-in-out 400ms;
-   text-shadow: lightgreen 0px 0px 4px;
 }
 
 
