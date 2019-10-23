@@ -35,6 +35,7 @@
 }
 
 .fab {
+    margin: 10px;
     font-size: 58px;
     color:#51F07B;
     animation-name: animate;
