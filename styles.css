@@ -7,15 +7,70 @@
 .jumbotron h1 {
     color: tomato;
     font-family: 'Luckiest Guy', cursive;
+    animation-name: image;
+    animation-iteration-count: initial;
+    animation-duration: 2.2s;
+    transition: all ease-in cubic-bezier(0.23, 1, 0.320, 1);
 }
 
  p {
     color: #17A33C;
     font-family: 'Luckiest Guy', cursive;
+    margin: 20px;
+    animation-name: animate;
+    animation-iteration-count: initial;
+    animation-duration: 2.2s;
+    transition: all ease-in cubic-bezier(0.23, 1, 0.320, 1);
 }
 
+.img-circle {
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid tomato;
+    box-shadow: tomato 0px 0px 10px; 
+    animation-name: image;
+    animation-iteration-count: initial;
+    animation-duration: 2.2s;
+    transition: all ease-in cubic-bezier(0.23, 1, 0.320, 1);
+}
 
 .fab {
     font-size: 58px;
-    color:#51F07B
+    color:#51F07B;
+    animation-name: animate;
+    animation-iteration-count: initial;
+    animation-duration: 2.2s;
+    transition: all ease-in cubic-bezier(0.23, 1, 0.320, 1);
+   
 }
+
+@keyframes image {
+    0% {
+        opacity:0.0;
+        transform: translateX(-450px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+@keyframes animate {
+    0% {
+        opacity:0.0;
+        transform: translateX(450px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+.fab:hover {
+    transform: scale(1.2);
+    transition: all ease-in-out 400ms;
+   text-shadow: lightgreen 0px 0px 4px;
+}
+
+
+
