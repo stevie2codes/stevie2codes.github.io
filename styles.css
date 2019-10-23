@@ -1,0 +1,21 @@
+.jumbotron {
+    border:2px solid tomato;
+    background-color: black;
+    box-shadow: lightslategray 2px 2px 10px;
+}
+
+.jumbotron h1 {
+    color: tomato;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+ p {
+    color: #17A33C;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+
+.fab {
+    font-size: 58px;
+    color:#51F07B
+}
