@@ -1,14 +1,10 @@
 .jumbotron {
     margin: 0 auto;
     border:2px solid fuchsia;
-    /* background-image: url(images/neon_waves_3-2560x1440.jpg);
+    background-image: url(images/neon_waves_3-2560x1440.jpg);
     background-size: cover;
-    background-color: black; */
-    box-shadow: fuchsia 2px 2px 10px;
-    position: relative;
-    overflow: hidden;
-    background: rgba(0, 0, 0, 0.4);
-    min-height: 100vh;
+    background-color: black; 
+    box-shadow: fuchsia 2px 2px 10px;  
 }
 
 .video-bg {
