@@ -1,9 +1,8 @@
 $(document).ready(function(){
 
-$("#about").on("click",function(){
-    console.log("hello");
-    $(".container").css("display","none");
-    $("#pageTwo").css("display","block");
+$("#next").on("click",function(){
+   $(".container").css("display","none");
+   $("#pageTwo").css("display","block")
+})
 });
 
-})
