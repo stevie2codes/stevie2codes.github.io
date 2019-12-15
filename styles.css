@@ -10,14 +10,15 @@ html{
 .container {
     position: relative;
     width: 80vw;
-    height: 75vh;
-    margin: 100px auto;
+    height: 90vh;
+    margin: 5vh auto;
     border-radius: 5px;
     box-shadow: 0 25px 40px rgba(0, 0, 0, 0.4); 
     overflow: hidden;
     overflow-y: hidden;
     display: flex;
     justify-content: center;
+    border: 6px solid black;
     }
     
     /* .circle{
@@ -43,7 +44,27 @@ html{
       .logo{
         width: 60px;
         position: absolute;
-       
+      }
+
+      .name-contain{
+        position: absolute;
+        align-content: center;
+        text-align: center;
+        display: flex;
+        top: 20%;
+      }
+
+      .name1{
+        font-family: 'Bebas Neue', cursive;
+        margin-right: 10px;
+        font-size: 9vw;
+        letter-spacing:12px;
+      }
+      .name2{
+        font-family: 'Bebas Neue', cursive;
+        margin-left: 10px;
+        font-size: 9vw;
+        letter-spacing: 12px;
       }
 
       .nav-list{
@@ -57,22 +78,123 @@ html{
         letter-spacing: 2px;
       }
 
-      .name{
+      .webTxt{
         position: absolute;
         font-family: 'Bebas Neue', cursive;
-        font-size: 4vmin;
+        font-size: 3.5vmin;
         letter-spacing: 3px;
         left: 2vw; 
         bottom: 0vw;
       }
 
-      svg{
-          position: absolute;
-          right: 2vw; 
-          top: 200px;
+      .devTxt{
+        position: absolute;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 3.5vmin;
+        letter-spacing: 3px;
+        right: 2vw; 
+        bottom: 0vw;
       }
 
-        #pageTwo{
+
+      .title{
+        font-family: 'Bebas Neue', cursive;
+        position: absolute;
+        top: 15%;
+        font-size: 4vmax;
+        letter-spacing:2vh;
+      }
+
+        /* #pageTwo{
             display: none;
-        }
+        } */
+      .portContain{
+        overflow-y: scroll;
+      }
+
+      .card-title,
+      .card-text{
+        font-family: 'Bebas Neue', cursive;
+        margin: 10px;
+        text-align: center;  
+    }
+    
+    .links{
+      position: relative;
+      display: flex;
+    justify-content: center;
+    margin: 5px;
+    }
+ 
+
+    .portfolio{
+      margin-top: 25vh;
+    }
+     .card{
+     border: 3px solid black;
+      display: flex;
+      margin: 2vh auto;
+      text-align: center;
+      box-shadow: 3px 8px 20px -3px black;  
+    }
+    .portfolio .card img{
+        min-height: 100%;
+        min-width: 40vh;
+        border: 1px solid black;
+    }
+
+    .fab,.fas{
+     text-align: center;
+      font-size: 1.3rem;
+      color: rgb(177, 11, 177);
+    }
+   
+    .cont-icons{
+      position: absolute;
+      align-content: center;
+      text-align: center;
+      display: flex;
+      top: 50%;
+      font-family: 'Bebas Neue', cursive;
       
+    }
+
+    .subTitle{
+      position: absolute;
+      align-content: center;
+      text-align: center;
+      display: flex;
+      top: 30%;
+      font-family: 'Bebas Neue', cursive;
+      letter-spacing: 2px;
+    }
+
+    .phone{
+      position: absolute;
+      font-size: 5vmin;
+      left: 60px;
+    }
+    .mail{
+      position: absolute;
+      right: 60px;
+    
+    }
+    .fa-phone{
+      font-size: 10vmin;
+    }
+    .fa-envelope{
+      font-size: 10vmin;
+    }
+
+    .contactPageIcons{
+      position: absolute;
+      bottom: 50px;
+    }
+
+    .c-hub,
+    .fa-linkedin,
+    .fa-envelope-open{
+      font-size: 6vh;
+      padding: 10px;
+   
+    }
