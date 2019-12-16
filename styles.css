@@ -119,8 +119,7 @@ html {
   margin: 0vh auto 15vh auto;
   border-radius: 3px;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
-  /* overflow: hidden;
-    overflow-y: hidden; */
+  overflow-y: scroll;
   display: flex;
   justify-content: center;
   border: 10px solid black;
@@ -258,6 +257,16 @@ html {
   bottom: 0vw;
 }
 
+.brand-state{
+  font-family: "Bebas Neue", cursive;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  font-size: 1.5rem;
+  top: 20vh;
+  margin: 0 10px;
+}
+
 .title {
   font-family: "Bebas Neue", cursive;
   position: absolute;
@@ -277,6 +286,7 @@ html {
   margin: 10px;
   text-align: center;
 }
+
 
 .links {
   position: relative;
