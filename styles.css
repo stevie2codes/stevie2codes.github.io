@@ -111,6 +111,14 @@ html {
 }
 /* //background Effects end// */
 
+#myBtn{
+  display: inline-block;
+  position: fixed;
+  z-index: 1000;
+  bottom: 0px;
+  right: 0;
+}
+
 .container {
   background-color: rgba(255, 255, 255, 0.157);
   position: relative;
@@ -130,34 +138,38 @@ html {
 #experience {
   opacity: 0;
   left: -200px;
+  transform: scale(0.5);
 }
 #experience.fade-in {
-  transition: 800ms ease-in-out;
+  transition: 500ms ease-in-out;
   opacity: 1;
   left: 0;
-  transform: rotate(360deg);
+  transform: scale(1);
   bottom: 0;
+
 }
 #portfolio {
   opacity: 0;
   left: -200px;
+  transform: scale(0.5);
 }
 #portfolio.fade-in {
-  transition: 800ms ease-in-out;
+  transition: 500ms ease-in-out;
   opacity: 1;
   left: 0;
-  transform: rotate(360deg);
+  transform: scale(1);
 }
 
 #contact {
   opacity: 0;
   left: -200px;
+  transform: scale(0.5);
 }
 #contact.fade-in {
-  transition: 800ms ease-in-out;
+  transition: 500ms ease-in-out;
   opacity: 1;
   left: 0;
-  transform: rotate(360deg);
+  transform: scale(1);
 }
 /* Scroll magic effects  end*/
 
@@ -206,7 +218,7 @@ html {
 }
 
 .myPic {
-  width: 250px;
+  width: 230px;
   position: absolute;
   bottom: 00px;
   z-index: 100;
