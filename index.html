@@ -8,6 +8,7 @@
     integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <link rel="stylesheet" href="styles.css">
@@ -16,20 +17,48 @@
 </head>
 
 <body>
-    <nav>
-        <ul class="nav-list">
-          <a href="#"><li>Home</li></a>
-         <a href="#experience"><li>About</li></a>
-          <a href="#portfolio"> <li>Portfolio</li></a>
-         <a href="#contact"> <li>Contact</li></a>
-        </ul>
-      </nav>
+    <!--Navbar-->
+<nav class="navbar navbar-light navbar-1 white">
+
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="#"><img src="images/stevoLogo.png" alt="my logo" class="logo"></a>
+  
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
+      aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+  
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent15">
+  
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#experience">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+      </ul>
+      <!-- Links -->
+  
+    </div>
+    <!-- Collapsible content -->
+  
+  </nav>
+  <!--/.Navbar-->
+  
   <div class="shape1"></div>
   <div class="shape2"></div>
   <div class="shape3"></div>
   <div class="shape4"></div>
   <div class="container">
-    <img src="images/stevoLogo.png" alt="my logo" class="logo">
+    
     
     <div class="contactPageIcons top1">
         <a href="https://github.com/stevie2codes"target="_blank"><i class="fab fa-github c-hub top"></i></a>
@@ -48,28 +77,16 @@
   </div>
 
   <div class="container animated" id="experience">
-    <img src="images/stevoLogo.png" alt="my Logo" class="logo">
-    <nav>
-      <ul class="nav-list">
-        <li id="about">About</li>
-        <li>Portfolio</li>
-        <li>Contact</li>
-      </ul>
-    </nav>
+    
+    
     <h4 class="title">Experience</h4>
    
   </div>
 
         <!------Portfolio------->
   <div class="container portContain" id="portfolio">
-    <img src="images/stevoLogo.png" alt="my Logo" class="logo">
-    <nav>
-      <ul class="nav-list">
-        <li id="about">About</li>
-       
-        <li>Contact</li>
-      </ul>
-    </nav>
+   
+   
     <h4 class="title">Portfolio</h4>
     
     <section class="portfolio">
@@ -131,14 +148,7 @@
   </div>
           <!---Contact------>
   <div class="container" id="contact">
-    <img src="images/stevoLogo.png" alt="my Logo" class="logo">
-    <nav>
-      <ul class="nav-list">
-        <li id="about">About</li>
-        <li>Portfolio</li>
-        
-      </ul>
-    </nav>
+  
     <h4 class="title">Contact</h4>
 
     <h5 class="subTitle">Lets get in touch!</h5>
@@ -161,7 +171,7 @@
   </div>
 
 
-
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>

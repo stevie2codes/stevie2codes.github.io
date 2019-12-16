@@ -66,7 +66,7 @@ html{
     position: relative;
     width: 80vw;
     height: 90vh;
-    margin: 10vh auto 15vh auto;
+    margin: 0vh auto 15vh auto;
     border-radius: 5px;
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
     overflow: hidden;
@@ -120,7 +120,7 @@ html{
         display: flex;
         bottom: 0vh;
         box-shadow: 12px 12px 20px -2px rgba(0, 0, 0, 0.4); 
-        /* clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);        justify-content: center;  */
+        /* clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);  */
         animation-name: swell;
         animation-duration: 1s;
         transition: all ease-in-out;
@@ -153,8 +153,8 @@ html{
       }
 
       .logo{
-        width: 60px;
-        position: absolute;
+        width: 80px;
+       
       }
 
       .name-contain{
@@ -177,22 +177,19 @@ html{
         font-size: 9vw;
         letter-spacing: 12px;
       }
-
-      .nav-list{
-          list-style: none;
-          display: flex;
-          position: absolute;
-          left: 300px;
-          position: fixed;
-          background-color: white;
-          opacity: 0.9;
-          z-index: 200;
-      }
-      .nav-list li{
+      .navbar.navbar-1 .navbar-toggler-icon {
+        background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
+        
+        }
+        .navbar-toggler{
+       border: none;
+         
+        }
+      
+      .navbar li{
         font-family: 'Bebas Neue', cursive;
         letter-spacing: 3px;
-        margin: 10px;
-        font-size: 2vw;
+      
       }
 
       .webTxt{
@@ -217,7 +214,7 @@ html{
       .title{
         font-family: 'Bebas Neue', cursive;
         position: absolute;
-        top: 15%;
+        top: 5%;
         font-size: 4vmax;
         letter-spacing:2vh;
       }
@@ -243,7 +240,7 @@ html{
  
 
     .portfolio{
-      margin-top: 25vh;
+      margin-top: 10vh;
     }
      .card{
      border: 3px solid black;
