@@ -62,19 +62,20 @@ html{
 
 
 .container {
-  background-color: white;
+  background-color: transparent;
     position: relative;
     width: 80vw;
-    height: 90vh;
+    height: 80vh;
     margin: 0vh auto 15vh auto;
-    border-radius: 5px;
+    border-radius: 3px;
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
     overflow: hidden;
     overflow-y: hidden;
     display: flex;
     justify-content: center;
-    border: 6px solid black;
+    border: 0.5px solid black;
     z-index: 2;
+    
     }
 
     #experience{
