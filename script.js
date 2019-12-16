@@ -1,8 +1,23 @@
 $(document).ready(function(){
 
-$("#next").on("click",function(){
-   $(".container").css("display","none");
-   $("#pageTwo").css("display","block")
-})
+   let controller = new ScrollMagic.Controller();
+
+   new ScrollMagic.Scene({
+       triggerElement: '#experience', 
+   })
+       .setClassToggle('#experience', 'fade-in')
+       .addTo(controller);
+
+       new ScrollMagic.Scene({
+         triggerElement: '#portfolio', 
+     })
+         .setClassToggle('#portfolio', 'fade-in')
+         .addTo(controller);
+
+         new ScrollMagic.Scene({
+            triggerElement: '#contact', 
+        })
+            .setClassToggle('#contact', 'fade-in')
+            .addTo(controller);
 });
 
