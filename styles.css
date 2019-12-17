@@ -114,6 +114,7 @@ html {
 #myBtn{
   display: inline-block;
   position: fixed;
+  height: 10vh;
   z-index: 1000;
   bottom: 0px;
   right: 0;
@@ -130,48 +131,63 @@ html {
   overflow-y: scroll;
   display: flex;
   justify-content: center;
-  border: 10px solid black;
+  border: 0.5px solid black;
   z-index: 2;
 }
 
 /* Scroll magic effects */
 #experience {
   opacity: 0;
-  left: -200px;
+  
   transform: scale(0.5);
 }
 #experience.fade-in {
   transition: 500ms ease-in-out;
   opacity: 1;
-  left: 0;
+  
   transform: scale(1);
   bottom: 0;
 
 }
 #portfolio {
   opacity: 0;
-  left: -200px;
+  
   transform: scale(0.5);
 }
 #portfolio.fade-in {
   transition: 500ms ease-in-out;
   opacity: 1;
-  left: 0;
+  
   transform: scale(1);
 }
 
 #contact {
   opacity: 0;
-  left: -200px;
+  
   transform: scale(0.5);
 }
 #contact.fade-in {
   transition: 500ms ease-in-out;
   opacity: 1;
-  left: 0;
+  
   transform: scale(1);
 }
 /* Scroll magic effects  end*/
+
+.skills{
+  display: inline-flex;
+  justify-content: center;
+  margin: 5px;
+  list-style: none;
+  position: absolute;
+  top: 70px;
+  margin: 0 auto;
+}
+
+.skills li{
+  font-family: "Bebas Neue", cursive;
+  margin: 5px;
+}
 
 /*navBar Styles*/
 .navbar.navbar-1 .navbar-toggler-icon {
