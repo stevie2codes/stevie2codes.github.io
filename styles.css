@@ -23,7 +23,14 @@ html {
   top: -50px;
   right: -100px;
   position: fixed;
-  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); 
+  -webkit-clip-path: polygon(
+    50% 0%,
+    100% 25%,
+    100% 75%,
+    50% 100%,
+    0% 75%,
+    0% 25%
+  );
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   transform: rotate(230deg);
 }
@@ -44,7 +51,14 @@ html {
   left: -100px;
   position: fixed;
   transform: rotate(-70deg);
-  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); 
+  -webkit-clip-path: polygon(
+    50% 0%,
+    100% 25%,
+    100% 75%,
+    50% 100%,
+    0% 75%,
+    0% 25%
+  );
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
@@ -58,7 +72,14 @@ html {
     rgba(252, 176, 69, 1) 100%
   );
   /* border-radius: 50%; */
-  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); 
+  -webkit-clip-path: polygon(
+    50% 0%,
+    100% 25%,
+    100% 75%,
+    50% 100%,
+    0% 75%,
+    0% 25%
+  );
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   z-index: -2;
   position: absolute;
@@ -84,7 +105,14 @@ html {
     rgba(252, 176, 69, 1) 100%
   );
   /* border-radius: 50%; */
-  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); 
+  -webkit-clip-path: polygon(
+    50% 0%,
+    100% 25%,
+    100% 75%,
+    50% 100%,
+    0% 75%,
+    0% 25%
+  );
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   z-index: -2;
   position: absolute;
@@ -110,7 +138,7 @@ html {
 }
 /* //background Effects end// */
 
-#myBtn{
+#myBtn {
   display: inline-block;
   position: fixed;
   height: 10vh;
@@ -127,47 +155,45 @@ html {
   margin: 0vh auto 15vh auto;
   border-radius: 1px;
   display: flex;
-  box-shadow: 0px 20px 20px -7px rgba(0,0,0,0.75);
+  box-shadow: 0px 20px 20px -7px rgba(0, 0, 0, 0.75);
   justify-content: center;
   border: 0.5px solid rgba(0, 0, 0, 0.034);
   z-index: 2;
   overflow-y: scroll;
-
 }
 
-.portContain
-{
-    /* background-color: rgba(255, 255, 255, 0.2); */
-    display: flex;
-    justify-content: space-evenly;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    margin: 30px auto;
-    border-radius: 1px;
-    /* border: 4px solid rgb(0, 0, 0); */
-    z-index: 2;
-  }
-
+.portContain {
+  /* background-color: rgba(255, 255, 255, 0.2); */
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  width: 95%;
+  height: 100%;
+  margin: 30px auto;
+  border-radius: 1px;
+  /* border: 4px solid rgb(0, 0, 0); */
+  z-index: 2;
+}
 
 /* Scroll magic effects */
- .about { 
+.about {
   left: -2000px;
   display: flex;
   justify-content: space-evenly;
   position: relative;
-  width: 100vw;
+  width: 95vw;
   height: 100vh;
   overflow-y: scroll;
   margin: 30px auto;
   border-radius: 1px;
   /* border: 4px solid rgb(0, 0, 0); */
   z-index: 2;
-  border-bottom: 1px solid black;
+  border-bottom: 0.5px solid black;
+  border-top: 0.5px solid black;
 }
 
 #portfolio {
- right: -2000px;
+  right: -2000px;
 }
 
 #contact {
@@ -179,12 +205,12 @@ html {
 #contact.fade-in {
   transition: 800ms ease-in-out;
   opacity: 1;
-  
+
   transform: scale(1);
 }
 /* Scroll magic effects  end*/
 
-.skills{
+.skills {
   top: 75px;
   width: 100%;
   display: flex;
@@ -193,12 +219,9 @@ html {
   list-style: none;
   margin-top: 5vh;
   position: absolute;
-  
-  
-  
 }
 
-.skills li{
+.skills li {
   font-family: "Bebas Neue", cursive;
   margin-bottom: 5px;
   margin-top: 5px;
@@ -301,7 +324,7 @@ html {
   bottom: 0vw;
 }
 
-.brand-state{
+.brand-state {
   font-family: "Bebas Neue", cursive;
   display: flex;
   margin: auto 10px;
@@ -310,15 +333,13 @@ html {
   font-size: 1.5rem;
   bottom: 0vh;
   top: 40vh;
-  
- 
 }
 
 .title {
   font-family: "Bebas Neue", cursive;
   position: absolute;
   margin-top: 30px;
- 
+
   font-size: 4vmax;
   letter-spacing: 2vh;
   border-bottom: 0.5px solid black;
@@ -335,7 +356,6 @@ html {
   margin: 5px;
 }
 
-
 .links {
   position: relative;
   display: flex;
@@ -351,7 +371,6 @@ html {
   display: flex;
   margin-top: 40px;
   text-align: center;
-  
 }
 .portfolio .card img {
   min-height: 100%;
@@ -359,15 +378,15 @@ html {
   border: 1px solid black;
 }
 
-.icon1,.icon2{
+.icon1,
+.icon2 {
   font-size: 1.5rem;
 }
 
 .fab,
 .fas,
-.devcon
- {
-   font-size: 1.5rem;
+.devcon {
+  font-size: 1.5rem;
   background: -webkit-linear-gradient(
     90deg,
     rgba(131, 58, 180, 1) 0%,
@@ -377,14 +396,11 @@ html {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-
 }
-
-
 
 .cont-icons {
   display: flex;
-  
+
   align-items: center;
   justify-content: center;
   font-family: "Bebas Neue", cursive;
@@ -405,7 +421,6 @@ html {
 .phone {
   display: flex;
   justify-content: center;
-  
 }
 .mail {
   position: absolute;
@@ -419,7 +434,7 @@ html {
   font-size: 3rem;
   position: absolute;
   left: -53px;
-  bottom:0vh;
+  bottom: 0vh;
 }
 
 .contactPageIcons {
@@ -432,5 +447,4 @@ html {
 .fa-envelope-open {
   font-size: 4vh;
   padding: 10px;
-  
 }
