@@ -9,10 +9,10 @@ $(document).ready(function () {
         .addTo(controller);
 
        new ScrollMagic.Scene({
-         triggerElement: '#portfolio', offset: -300
+         triggerElement: '#portfolio',
      })
-         .setClassToggle('#portfolio', 'fade-in')
-         .addTo(controller);
+     .setTween("#portfolio", 0.5, { left: 0 })
+     .addTo(controller);
 
          new ScrollMagic.Scene({
             triggerElement: '#contact', offset: -300
