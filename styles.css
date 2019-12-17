@@ -23,7 +23,8 @@ html {
   top: -50px;
   right: -100px;
   position: fixed;
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); 
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); 
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   transform: rotate(230deg);
 }
 
@@ -43,6 +44,7 @@ html {
   left: -100px;
   position: fixed;
   transform: rotate(-70deg);
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); 
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
@@ -56,6 +58,7 @@ html {
     rgba(252, 176, 69, 1) 100%
   );
   /* border-radius: 50%; */
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); 
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   z-index: -2;
   position: absolute;
@@ -81,6 +84,7 @@ html {
     rgba(252, 176, 69, 1) 100%
   );
   /* border-radius: 50%; */
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); 
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   z-index: -2;
   position: absolute;
@@ -125,11 +129,29 @@ html {
   display: flex;
   box-shadow: 0px 20px 20px -7px rgba(0,0,0,0.75);
   justify-content: center;
-  border: 0.4px solid black;
+  border: 0.5px solid rgba(0, 0, 0, 0.034);
   z-index: 2;
   overflow-y: scroll;
 
 }
+
+.portContain,
+.about{
+    background-color: rgba(255, 255, 255, 0.2);
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin: 0vh auto 15vh auto;
+    border-radius: 1px;
+    display: flex;
+    box-shadow: 0px 20px 20px -7px rgba(0,0,0,0.75);
+    justify-content: center;
+    border: 0.5px solid rgba(0, 0, 0, 0.034);
+    z-index: 2;
+    overflow-y: scroll;
+  
+  }
+
 
 /* Scroll magic effects */
 #experience {
