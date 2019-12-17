@@ -20,11 +20,7 @@ $(document).ready(function () {
             .setClassToggle('#contact', 'fade-in')
             .addTo(controller);
 
-
-
-
-
-
+        });
 
     let myButton = document.getElementById('myBtn');
 
@@ -43,4 +39,3 @@ $(document).ready(function () {
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
     }
-});
