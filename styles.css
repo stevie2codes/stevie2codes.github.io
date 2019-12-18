@@ -7,30 +7,27 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
+
 /* //background Effects Start// */
 .shape1 {
   width: 40vh;
   height: 40vh;
-  background: linear-gradient(
-    90deg,
-    rgba(131, 58, 180, 1) 0%,
-    rgba(253, 29, 29, 1) 50%,
-    rgba(252, 176, 69, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(131, 58, 180, 1) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgba(252, 176, 69, 1) 100%);
   /* border-radius: 50%; */
   z-index: -2;
   position: absolute;
   top: -50px;
   right: -100px;
   position: fixed;
-  -webkit-clip-path: polygon(
-    50% 0%,
-    100% 25%,
-    100% 75%,
-    50% 100%,
-    0% 75%,
-    0% 25%
-  );
+  -webkit-clip-path: polygon(50% 0%,
+      100% 25%,
+      100% 75%,
+      50% 100%,
+      0% 75%,
+      0% 25%);
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   transform: rotate(230deg);
 }
@@ -39,6 +36,7 @@ html {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -47,12 +45,10 @@ html {
 .shape2 {
   width: 40vh;
   height: 40vh;
-  background: linear-gradient(
-    90deg,
-    rgba(131, 58, 180, 1) 0%,
-    rgba(253, 29, 29, 1) 50%,
-    rgba(252, 176, 69, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(131, 58, 180, 1) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgba(252, 176, 69, 1) 100%);
   /* border-radius: 50%; */
   z-index: -2;
   position: absolute;
@@ -60,35 +56,29 @@ html {
   left: -100px;
   position: fixed;
   transform: rotate(-70deg);
-  -webkit-clip-path: polygon(
-    50% 0%,
-    100% 25%,
-    100% 75%,
-    50% 100%,
-    0% 75%,
-    0% 25%
-  );
+  -webkit-clip-path: polygon(50% 0%,
+      100% 25%,
+      100% 75%,
+      50% 100%,
+      0% 75%,
+      0% 25%);
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
 .shape3 {
   width: 20vh;
   height: 20vh;
-  background: linear-gradient(
-    90deg,
-    rgba(131, 58, 180, 1) 0%,
-    rgba(253, 29, 29, 1) 50%,
-    rgba(252, 176, 69, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(131, 58, 180, 1) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgba(252, 176, 69, 1) 100%);
   /* border-radius: 50%; */
-  -webkit-clip-path: polygon(
-    50% 0%,
-    100% 25%,
-    100% 75%,
-    50% 100%,
-    0% 75%,
-    0% 25%
-  );
+  -webkit-clip-path: polygon(50% 0%,
+      100% 25%,
+      100% 75%,
+      50% 100%,
+      0% 75%,
+      0% 25%);
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   z-index: -2;
   position: absolute;
@@ -106,21 +96,17 @@ html {
 .shape4 {
   width: 20vh;
   height: 20vh;
-  background: linear-gradient(
-    90deg,
-    rgba(131, 58, 180, 1) 0%,
-    rgba(253, 29, 29, 1) 50%,
-    rgba(252, 176, 69, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(131, 58, 180, 1) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgba(252, 176, 69, 1) 100%);
   /* border-radius: 50%; */
-  -webkit-clip-path: polygon(
-    50% 0%,
-    100% 25%,
-    100% 75%,
-    50% 100%,
-    0% 75%,
-    0% 25%
-  );
+  -webkit-clip-path: polygon(50% 0%,
+      100% 25%,
+      100% 75%,
+      50% 100%,
+      0% 75%,
+      0% 25%);
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   z-index: -2;
   position: absolute;
@@ -200,12 +186,14 @@ html {
   transform: scale(0.5);
   width: 90vw;
 }
+
 #contact.fade-in {
   transition: 800ms ease-in-out;
   opacity: 1;
 
   transform: scale(1);
 }
+
 /* Scroll magic effects  end*/
 
 .skills {
@@ -234,6 +222,7 @@ html {
 .navbar-toggler {
   box-shadow: 0px 1px 10px black;
 }
+
 .navbar-toggler:focus,
 .navbar-toggler:hover {
   transform: scale(1.03);
@@ -250,16 +239,15 @@ html {
 }
 
 .navbar li:hover {
-  background: -webkit-linear-gradient(
-    90deg,
-    rgba(131, 58, 180, 1) 0%,
-    rgba(253, 29, 29, 1) 50%,
-    rgba(252, 176, 69, 1) 100%
-  );
+  background: -webkit-linear-gradient(90deg,
+      rgba(131, 58, 180, 1) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgba(252, 176, 69, 1) 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 /*navBar Styles end*/
 .hero-icons {
   z-index: 50;
@@ -297,6 +285,7 @@ html {
   font-size: 9vw;
   letter-spacing: 6px;
 }
+
 .name2 {
   font-family: "Anton", sans-serif;
   margin-left: 10px;
@@ -363,6 +352,7 @@ html {
 .portfolio {
   margin-top: 10vh;
 }
+
 .card {
   border: 1px solid black;
   display: flex;
@@ -370,6 +360,7 @@ html {
   text-align: center;
   background-color: rgba(255, 255, 255, 0.207);
 }
+
 .portfolio .card img {
   min-height: 100%;
   min-width: 40vh;
@@ -385,12 +376,10 @@ html {
 .fas,
 .devcon {
   font-size: 1.5rem;
-  background: -webkit-linear-gradient(
-    90deg,
-    rgba(131, 58, 180, 1) 0%,
-    rgba(253, 29, 29, 1) 50%,
-    rgba(252, 176, 69, 1) 100%
-  );
+  background: -webkit-linear-gradient(90deg,
+      rgba(131, 58, 180, 1) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgba(252, 176, 69, 1) 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -419,27 +408,28 @@ html {
   display: flex;
   justify-content: center;
 }
+
 .mail {
   position: absolute;
   top: 50vh;
   display: flex;
 }
+
 .fa-phone {
   font-size: 2.5rem;
   margin-right: 5px;
 }
+
 .fa-envelope {
   font-size: 3rem;
   position: absolute;
 
   left: -59px;
   bottom: 0vh;
-  background: -webkit-linear-gradient(
-    90deg,
-    rgba(131, 58, 180, 1) 0%,
-    rgba(253, 29, 29, 1) 50%,
-    rgba(252, 176, 69, 1) 100%
-  );
+  background: -webkit-linear-gradient(90deg,
+      rgba(131, 58, 180, 1) 0%,
+      rgba(253, 29, 29, 1) 50%,
+      rgba(252, 176, 69, 1) 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
