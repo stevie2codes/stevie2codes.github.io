@@ -2,7 +2,7 @@ body,
 html {
   min-height: 100vh;
   background-repeat: no-repeat;
-  overflow-x:hidden;
+  overflow-x: hidden;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -58,7 +58,7 @@ html {
   animation-duration: 7s;
   transition: all ease-in-out;
   animation-iteration-count: infinite;
-  animation-direction: alternate;  
+  animation-direction: alternate;
   border-radius: 50%;
   z-index: 1;
 }
@@ -70,7 +70,7 @@ html {
       rgba(131, 58, 180, 1) 0%,
       rgba(253, 29, 29, 1) 50%,
       rgba(252, 176, 69, 1) 100%);
- 
+
   border-radius: 50%;
   z-index: 1;
   position: absolute;
@@ -123,12 +123,11 @@ html {
   z-index: 1000;
   bottom: 0px;
   right: 0;
- 
+
 }
 
 .container {
-  /* background-color: rgba(255, 255, 255, 0.2); */
-  background-color: #EFEEEE;
+  background-color: rgba(239, 238, 238, 0.111);
   position: relative;
   width: 70vw;
   height: 80vh;
@@ -165,7 +164,7 @@ html {
   margin: 30px auto;
   border-radius: 12px;
   z-index: 2;
-  box-shadow: -6px -6px 26px 0 rgba(255, 255, 255, 0.83),6px 6px 16px 0 rgba(217, 210, 200, 0.51);
+  box-shadow: -6px -6px 26px 0 rgba(255, 255, 255, 0.83), 6px 6px 16px 0 rgba(217, 210, 200, 0.51);
   border: 1px solid rgba(255, 255, 255, 0.20);
 }
 
@@ -174,8 +173,8 @@ html {
 }
 
 #contact {
- 
-  box-shadow: -6px -6px 26px 0 rgba(255, 255, 255, 0.83),6px 6px 16px 0 rgba(217, 210, 200, 0.51);
+  margin-bottom: 80px;
+  box-shadow: -6px -6px 26px 0 rgba(255, 255, 255, 0.83), 6px 6px 16px 0 rgba(217, 210, 200, 0.51);
   border: 1px solid rgba(255, 255, 255, 0.20);
   transform: scale(0.5);
   width: 70vw;
@@ -189,40 +188,121 @@ html {
 }
 
 /* Scroll magic effects  end*/
+.html{
+  position: absolute;
+  left: 5px;
+  top:100px;
+  position: fixed;
+}
+.bootstrap{
+  position: absolute;
+  left: 5px;
+  top:160px;
+  position: fixed;
+}
+.css{
+  position: absolute;
+  left: 5px;
+  top:220px;
+  position: fixed;
+}
+.sass{
+  position: absolute;
+  left: 5px;
+  top:280px;
+  position: fixed;
+}
+.javascript{
+  position: absolute;
+  left: 5px;
+  top:340px;
+  position: fixed;
+}
+.jquery{
+  position: absolute;
+  left: 5px;
+  top:400px;
+  position: fixed;
+}
+.react{
+  position: absolute;
+  left: 5px;
+  top:460px;
+  position: fixed;
+}
+.node{
+  position: absolute;
+  right: 5px;
+  top:180px;
+  position: fixed;
+}
+.git{
+  position: absolute;
+  right: 5px;
+  top:240px;
+  position: fixed;
+}
+.github{
+  position: absolute;
+  right: 5px;
+  top:300px;
+  position: fixed;
+}
+.mongo{
+  position: absolute;
+  right: 5px;
+  top:360px;
+  position: fixed;
+}
+.express{
+  position: absolute;
+  right: 5px;
+  top:420px;
+  position: fixed;
+}
+.sql{
+  position: absolute;
+  right: 5px;
+  top:480px;
+  position: fixed;
+}
+.heroku{
+  position: absolute;
+  right: 5px;
+  top:540px;
+  position: fixed;
+ 
+}
+#icon-rows{
+ opacity: 0; 
+ 
+}
+
 
 .skills {
-  top: 75px;
-  width: 100%;
+  font-size: 2vh;
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  list-style: none;
-  margin-top: 5vh;
-  position: absolute;
-  
+  list-style: none; 
+  bottom: -2000px; 
 }
 
 .skills li {
   font-family: "Bebas Neue", cursive;
-  margin-bottom: 5px;
-  margin-top: 5px;
-  margin-right: 5px;
 }
 
 /*navBar Styles*/
 .navbar.navbar-1 .navbar-toggler-icon {
   background-image: url("https://mdbootstrap.com/img/svg/hamburger6.svg?color=000");
-  
+
 }
 
 .navbar-toggler {
-  /* box-shadow: 0px 1px 10px black; */
-  box-shadow: -6px -6px 16px 0 rgba(17, 10, 10, 0.8),6px 6px 6px 0 rgba(28, 26, 25, 0.8);
+  box-shadow: -6px -6px 16px 0 rgba(17, 10, 10, 0.8), 6px 6px 6px 0 rgba(28, 26, 25, 0.8);
   border-radius: 100%;
   z-index: 5000;
   position: absolute;
- right: 4px;
- 
+  right: 4px;
+
 }
 
 .navbar-toggler:focus,
@@ -271,7 +351,8 @@ html {
   width: 80px;
   position: relative;
   top: -20px;
-  
+  z-index: 5;
+
 }
 
 .name-contain {
@@ -301,7 +382,7 @@ html {
 .webTxt {
   position: absolute;
   font-family: "Bebas Neue", cursive;
-  font-size: 3.5vmin;
+  font-size: 3vw;
   letter-spacing: 2px;
   left: 1vw;
   bottom: 0vw;
@@ -310,7 +391,7 @@ html {
 .devTxt {
   position: absolute;
   font-family: "Bebas Neue", cursive;
-  font-size: 3.5vmin;
+  font-size: 3vw;
   letter-spacing: 2px;
   right: 1vw;
   bottom: 0vw;
@@ -319,12 +400,11 @@ html {
 .brand-state {
   font-family: "Bebas Neue", cursive;
   display: flex;
-  margin: auto 10px;
+  margin:  10px;
   justify-content: space-evenly;
   position: absolute;
   font-size: 1.3rem;
-  bottom: 0vh;
-  top: 40vh;
+  top: 12vh;
 }
 
 .title {
@@ -359,12 +439,12 @@ html {
 }
 
 .card {
-  box-shadow: -6px -6px 26px 0 rgba(255, 255, 255, 0.83),6px 6px 16px 0 rgba(217, 210, 200, 0.51);
+  box-shadow: -6px -6px 26px 0 rgba(255, 255, 255, 0.83), 6px 6px 16px 0 rgba(217, 210, 200, 0.51);
   border: 1px solid rgba(255, 255, 255, 0.20);
   display: flex;
-  margin-top: 40px;
+  margin-top: 60px;
   text-align: center;
-  background-color:#EFEEEE;
+  background-color: #EFEEEE;
 }
 
 .portfolio .card img {
@@ -382,7 +462,7 @@ html {
 .fas,
 .devcon,
 .far {
-  font-size: 1.5rem;
+  font-size: 3vmax;
   background: -webkit-linear-gradient(90deg,
       rgba(131, 58, 180, 1) 0%,
       rgba(253, 29, 29, 1) 50%,
@@ -390,13 +470,13 @@ html {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  box-shadow: -6px -6px 26px 0 rgba(255, 255, 255, 0.83),6px 6px 16px 0 rgba(217, 210, 200, 0.51);
+  box-shadow: -6px -6px 26px 0 rgba(255, 255, 255, 0.83), 6px 6px 16px 0 rgba(217, 210, 200, 0.51);
   border: 1px solid rgba(255, 255, 255, 0.20);
- padding: 10px;
+  padding: 10px;
   border-radius: 12px;
   margin-right: 5px;
   margin-left: 5px;
- 
+
 }
 
 .cont-icons {
@@ -416,7 +496,7 @@ html {
   font-family: "Bebas Neue", cursive;
   letter-spacing: 2px;
   font-size: 4vh;
-  
+
 }
 
 .phone {
@@ -432,15 +512,16 @@ html {
 
 .fa-phone {
   font-size: 2.5rem;
-  margin-right: 5px;
+  position: relative;
+  top: -15px;
+  left: -20px;
   padding: 10px;
 }
 
 .fa-envelope {
   font-size: 3rem;
   position: absolute;
-
-  left: -59px;
+  left: -99px;
   bottom: 0vh;
   background: -webkit-linear-gradient(90deg,
       rgba(131, 58, 180, 1) 0%,
@@ -454,28 +535,29 @@ html {
 .contactPageIcons {
   position: absolute;
   bottom: 50px;
-  margin-right: 10px;
+  margin-right: 5px;
+  padding: 10px;
 }
 
 .c-hub,
 .fa-linkedin,
 .fa-envelope-open {
-  font-size: 4vh;
+  font-size: 5vh;
   padding: 10px;
-  box-shadow: -6px -6px 26px 0 rgba(255, 255, 255, 0.83),6px 6px 16px 0 rgba(217, 210, 200, 0.51);
+  box-shadow: -6px -6px 26px 0 rgba(255, 255, 255, 0.83), 6px 6px 16px 0 rgba(217, 210, 200, 0.51);
   border: 1px solid rgba(255, 255, 255, 0.20);
-  padding: 10px;
+  padding: 5px;
   margin: 10px;
 }
 
-.resume{
-display: flex;
-position: absolute;
-right: 75%;
- top: 30px;
- box-shadow: -6px -6px 26px 0 rgba(255, 255, 255, 0.83),6px 6px 16px 0 rgba(217, 210, 200, 0.51);
-  border: 1px solid rgba(255, 255, 255, 0.20);
-  padding: 10px;
+.resume {
+  display: flex;
+  position: absolute;
+  flex-wrap: wrap;
+  left: 0px;
+  top: 15px;
+  width: 3vmax;
+  padding: 2px;
   border-radius: 12px;
 }
 
@@ -488,6 +570,6 @@ right: 75%;
   letter-spacing: 3px;
   height: 50px;
   z-index: 2000;
-  box-shadow: -6px -6px 26px 0 rgba(255, 255, 255, 0.83),6px 6px 16px 0 rgba(217, 210, 200, 0.51);
+  box-shadow: -6px -6px 26px 0 rgba(255, 255, 255, 0.83), 6px 6px 16px 0 rgba(217, 210, 200, 0.51);
   border: 1px solid rgba(255, 255, 255, 0.20);
 }
