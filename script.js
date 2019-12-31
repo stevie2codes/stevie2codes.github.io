@@ -14,8 +14,7 @@ $(document).ready(function () {
         triggerElement: '#experience',
     })
     .setTween("#icon-rows", 1, {
-        opacity: 1,
-       
+        opacity: 1,  
     })
     .addTo(controller);
 
@@ -24,6 +23,13 @@ $(document).ready(function () {
         })
         .setTween("#portfolio", 0.5, {
             left: 0
+        })
+        .addTo(controller);
+        new ScrollMagic.Scene({
+            triggerElement: '#portfolio',
+        })
+        .setTween("#icon-rows", 1, {
+            opacity: 0,  
         })
         .addTo(controller);
 

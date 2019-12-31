@@ -166,6 +166,7 @@ html {
   z-index: 2;
   box-shadow: -6px -6px 26px 0 rgba(255, 255, 255, 0.83), 6px 6px 16px 0 rgba(217, 210, 200, 0.51);
   border: 1px solid rgba(255, 255, 255, 0.20);
+  background-color: #EFEEEE;
 }
 
 #portfolio {
@@ -174,6 +175,7 @@ html {
 
 #contact {
   margin-bottom: 80px;
+  background-color: #EFEEEE;
   box-shadow: -6px -6px 26px 0 rgba(255, 255, 255, 0.83), 6px 6px 16px 0 rgba(217, 210, 200, 0.51);
   border: 1px solid rgba(255, 255, 255, 0.20);
   transform: scale(0.5);
@@ -271,19 +273,16 @@ html {
   right: 5px;
   top:540px;
   position: fixed;
- 
 }
 #icon-rows{
  opacity: 0; 
  
 }
 
-
 .skills {
   font-size: 2vh;
   display: flex;
   list-style: none; 
-  bottom: -2000px; 
 }
 
 .skills li {
