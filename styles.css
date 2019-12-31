@@ -2,34 +2,33 @@ body,
 html {
   min-height: 100vh;
   background-repeat: no-repeat;
-  overflow-x: scroll;
+  overflow-x:hidden;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #EFEEEE;
 }
 
 /* //background Effects Start// */
 .shape1 {
-  width: 40vh;
-  height: 40vh;
+  width: 28vh;
+  height: 28vh;
   background: linear-gradient(90deg,
       rgba(131, 58, 180, 1) 0%,
       rgba(253, 29, 29, 1) 50%,
       rgba(252, 176, 69, 1) 100%);
-  /* border-radius: 50%; */
   z-index: -2;
   position: absolute;
-  top: -50px;
+  border-radius: 50%;
+  top: -40px;
   right: -100px;
   position: fixed;
-  -webkit-clip-path: polygon(50% 0%,
-      100% 25%,
-      100% 75%,
-      50% 100%,
-      0% 75%,
-      0% 25%);
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  transform: rotate(230deg);
+  animation-name: shadow;
+  animation-duration: 7s;
+  transition: all ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  z-index: 1;
 }
 
 @keyframes shadow {
@@ -43,26 +42,25 @@ html {
 }
 
 .shape2 {
-  width: 40vh;
-  height: 40vh;
+  width: 28vh;
+  height: 28vh;
   background: linear-gradient(90deg,
       rgba(131, 58, 180, 1) 0%,
       rgba(253, 29, 29, 1) 50%,
       rgba(252, 176, 69, 1) 100%);
-  /* border-radius: 50%; */
+  border-radius: 50%;
   z-index: -2;
   position: absolute;
-  top: 380px;
+  bottom: 00px;
   left: -100px;
   position: fixed;
-  transform: rotate(-70deg);
-  -webkit-clip-path: polygon(50% 0%,
-      100% 25%,
-      100% 75%,
-      50% 100%,
-      0% 75%,
-      0% 25%);
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  animation-name: shadow;
+  animation-duration: 7s;
+  transition: all ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;  
+  border-radius: 50%;
+  z-index: 1;
 }
 
 .shape3 {
@@ -72,22 +70,16 @@ html {
       rgba(131, 58, 180, 1) 0%,
       rgba(253, 29, 29, 1) 50%,
       rgba(252, 176, 69, 1) 100%);
-  /* border-radius: 50%; */
-  -webkit-clip-path: polygon(50% 0%,
-      100% 25%,
-      100% 75%,
-      50% 100%,
-      0% 75%,
-      0% 25%);
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  z-index: -2;
+ 
+  border-radius: 50%;
+  z-index: 1;
   position: absolute;
   bottom: -80px;
   right: -60px;
   position: fixed;
   transform: rotate(180deg);
   animation-name: shadow;
-  animation-duration: 20s;
+  animation-duration: 10s;
   transition: all ease-in-out;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -101,21 +93,22 @@ html {
       rgba(253, 29, 29, 1) 50%,
       rgba(252, 176, 69, 1) 100%);
   /* border-radius: 50%; */
-  -webkit-clip-path: polygon(50% 0%,
+  /* -webkit-clip-path: polygon(50% 0%,
       100% 25%,
       100% 75%,
       50% 100%,
       0% 75%,
       0% 25%);
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  z-index: -2;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); */
+  z-index: 1;
+  border-radius: 50%;
   position: absolute;
   top: -60px;
   left: -80px;
   position: fixed;
   transform: rotate(180deg);
   animation-name: shadow;
-  animation-duration: 20s;
+  animation-duration: 10s;
   transition: all ease-in-out;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -130,33 +123,33 @@ html {
   z-index: 1000;
   bottom: 0px;
   right: 0;
+ 
 }
 
 .container {
-  background-color: rgba(255, 255, 255, 0.2);
+  /* background-color: rgba(255, 255, 255, 0.2); */
+  background-color: #EFEEEE;
   position: relative;
-  width: 90vw;
+  width: 70vw;
   height: 80vh;
-  margin: 0vh auto 15vh auto;
-  border-radius: 1px;
+  margin: 0 auto;
+  border-radius: 3px;
   display: flex;
-  box-shadow: 0px 20px 20px -7px rgba(0, 0, 0, 0.75);
+  border: 9px solid black;
+  box-shadow: -6px -6px 16px 0px rgba(99, 85, 85, 0.344), 6px 6px 6px 0px rgba(63, 56, 56, 0.481);
   justify-content: center;
-  border: 0.5px solid rgba(0, 0, 0, 0.034);
   z-index: 2;
-  overflow-y: scroll;
+  top: -18px;
 }
 
 .portContain {
-  /* background-color: rgba(255, 255, 255, 0.2); */
   display: flex;
   justify-content: space-evenly;
   position: relative;
-  width: 95%;
+  width: 70vw;
   height: 100%;
   margin: 30px auto;
   border-radius: 1px;
-  /* border: 4px solid rgb(0, 0, 0); */
   z-index: 2;
 }
 
@@ -166,14 +159,14 @@ html {
   display: flex;
   justify-content: space-evenly;
   position: relative;
-  width: 95vw;
-  min-height: 100vh;
+  width: 70vw;
+  min-height: 70vh;
   overflow-y: scroll;
   margin: 30px auto;
-  border-radius: 1px;
+  border-radius: 12px;
   z-index: 2;
-  border-bottom: 0.5px solid rgba(0, 0, 0, 0.296);
-  border-top: 0.5px solid rgba(0, 0, 0, 0.296);
+  box-shadow: -6px -6px 26px 0 rgba(255, 255, 255, 0.83),6px 6px 16px 0 rgba(217, 210, 200, 0.51);
+  border: 1px solid rgba(255, 255, 255, 0.20);
 }
 
 #portfolio {
@@ -181,16 +174,17 @@ html {
 }
 
 #contact {
-  opacity: 0;
-  border: 0.5px solid rgba(0, 0, 0, 0.385);
+ 
+  box-shadow: -6px -6px 26px 0 rgba(255, 255, 255, 0.83),6px 6px 16px 0 rgba(217, 210, 200, 0.51);
+  border: 1px solid rgba(255, 255, 255, 0.20);
   transform: scale(0.5);
-  width: 90vw;
+  width: 70vw;
+  border-radius: 12px;
 }
 
 #contact.fade-in {
   transition: 800ms ease-in-out;
   opacity: 1;
-
   transform: scale(1);
 }
 
@@ -205,6 +199,7 @@ html {
   list-style: none;
   margin-top: 5vh;
   position: absolute;
+  
 }
 
 .skills li {
@@ -217,10 +212,17 @@ html {
 /*navBar Styles*/
 .navbar.navbar-1 .navbar-toggler-icon {
   background-image: url("https://mdbootstrap.com/img/svg/hamburger6.svg?color=000");
+  
 }
 
 .navbar-toggler {
-  box-shadow: 0px 1px 10px black;
+  /* box-shadow: 0px 1px 10px black; */
+  box-shadow: -6px -6px 16px 0 rgba(17, 10, 10, 0.8),6px 6px 6px 0 rgba(28, 26, 25, 0.8);
+  border-radius: 100%;
+  z-index: 5000;
+  position: absolute;
+ right: 4px;
+ 
 }
 
 .navbar-toggler:focus,
@@ -259,7 +261,7 @@ html {
 }
 
 .myPic {
-  width: 240px;
+  width: 220px;
   position: absolute;
   bottom: 00px;
   z-index: 100;
@@ -267,6 +269,9 @@ html {
 
 .logo {
   width: 80px;
+  position: relative;
+  top: -20px;
+  
 }
 
 .name-contain {
@@ -317,7 +322,7 @@ html {
   margin: auto 10px;
   justify-content: space-evenly;
   position: absolute;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   bottom: 0vh;
   top: 40vh;
 }
@@ -354,17 +359,18 @@ html {
 }
 
 .card {
-  border: 1px solid black;
+  box-shadow: -6px -6px 26px 0 rgba(255, 255, 255, 0.83),6px 6px 16px 0 rgba(217, 210, 200, 0.51);
+  border: 1px solid rgba(255, 255, 255, 0.20);
   display: flex;
   margin-top: 40px;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.207);
+  background-color:#EFEEEE;
 }
 
 .portfolio .card img {
   min-height: 100%;
   min-width: 40vh;
-  border: 1px solid black;
+  border-radius: 12px;
 }
 
 .icon1,
@@ -384,6 +390,13 @@ html {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  box-shadow: -6px -6px 26px 0 rgba(255, 255, 255, 0.83),6px 6px 16px 0 rgba(217, 210, 200, 0.51);
+  border: 1px solid rgba(255, 255, 255, 0.20);
+ padding: 10px;
+  border-radius: 12px;
+  margin-right: 5px;
+  margin-left: 5px;
+ 
 }
 
 .cont-icons {
@@ -403,6 +416,7 @@ html {
   font-family: "Bebas Neue", cursive;
   letter-spacing: 2px;
   font-size: 4vh;
+  
 }
 
 .phone {
@@ -419,6 +433,7 @@ html {
 .fa-phone {
   font-size: 2.5rem;
   margin-right: 5px;
+  padding: 10px;
 }
 
 .fa-envelope {
@@ -439,6 +454,7 @@ html {
 .contactPageIcons {
   position: absolute;
   bottom: 50px;
+  margin-right: 10px;
 }
 
 .c-hub,
@@ -446,6 +462,10 @@ html {
 .fa-envelope-open {
   font-size: 4vh;
   padding: 10px;
+  box-shadow: -6px -6px 26px 0 rgba(255, 255, 255, 0.83),6px 6px 16px 0 rgba(217, 210, 200, 0.51);
+  border: 1px solid rgba(255, 255, 255, 0.20);
+  padding: 10px;
+  margin: 10px;
 }
 
 .resume{
@@ -453,15 +473,21 @@ display: flex;
 position: absolute;
 right: 75%;
  top: 30px;
+ box-shadow: -6px -6px 26px 0 rgba(255, 255, 255, 0.83),6px 6px 16px 0 rgba(217, 210, 200, 0.51);
+  border: 1px solid rgba(255, 255, 255, 0.20);
+  padding: 10px;
+  border-radius: 12px;
 }
 
 .foot {
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.228);
+  background-color: #EFEEEE;
   border-top: 0.5px solid black;
   font-family: "Bebas Neue", cursive;
   padding-top: 22px;
   letter-spacing: 3px;
   height: 50px;
   z-index: 2000;
+  box-shadow: -6px -6px 26px 0 rgba(255, 255, 255, 0.83),6px 6px 16px 0 rgba(217, 210, 200, 0.51);
+  border: 1px solid rgba(255, 255, 255, 0.20);
 }
