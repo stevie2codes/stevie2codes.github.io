@@ -297,7 +297,7 @@ html {
 
 .navbar-toggler {
   box-shadow: -6px -6px 16px 0 rgba(17, 10, 10, 0.8), 6px 6px 6px 0 rgba(28, 26, 25, 0.8);
-  border-radius: 100%;
+  border-radius: 8px;
   z-index: 5000;
   position: absolute;
   right: 4px;
@@ -438,7 +438,7 @@ html {
 }
 
 .card {
-  box-shadow: -6px -6px 26px 0 rgba(255, 255, 255, 0.83), 6px 6px 16px 0 rgba(217, 210, 200, 0.51);
+  box-shadow: -6px -6px 26px 0 rgb(255, 255, 255), 6px 6px 16px 0 rgba(187, 182, 175, 0.657);
   border: 1px solid rgba(255, 255, 255, 0.20);
   display: flex;
   margin-top: 60px;
@@ -461,7 +461,7 @@ html {
 .fas,
 .devcon,
 .far {
-  font-size: 3vmax;
+  font-size: 2vmax;
   background: -webkit-linear-gradient(90deg,
       rgba(131, 58, 180, 1) 0%,
       rgba(253, 29, 29, 1) 50%,
@@ -469,7 +469,7 @@ html {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  box-shadow: -6px -6px 26px 0 rgba(255, 255, 255, 0.83), 6px 6px 16px 0 rgba(217, 210, 200, 0.51);
+  box-shadow: -6px -6px 26px 0 rgb(255, 255, 255), 6px 6px 16px 0 rgba(199, 193, 185, 0.51);
   border: 1px solid rgba(255, 255, 255, 0.20);
   padding: 10px;
   border-radius: 12px;
