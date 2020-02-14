@@ -156,17 +156,17 @@ html {
 .about {
   left: -2000px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   position: relative;
-  width: 70vw;
-  min-height: 70vh;
+  max-width: 50vw;
+  max-height: 70vh;
   overflow-y: scroll;
-  margin: 30px auto;
-  border-radius: 12px;
+  margin: 10px auto;
+  /* border-radius: 12px; */
   z-index: 2;
-  box-shadow: -6px -6px 26px 0 rgba(255, 255, 255, 0.83), 6px 6px 16px 0 rgba(217, 210, 200, 0.51);
+  /* box-shadow: -6px -6px 26px 0 rgba(255, 255, 255, 0.924), 6px 6px 16px 0 rgba(192, 184, 174, 0.51);
   border: 1px solid rgba(255, 255, 255, 0.20);
-  background-color: #EFEEEE;
+  background-color: #EFEEEE; */
 }
 
 #portfolio {
@@ -401,17 +401,17 @@ html {
   font-family: "Bebas Neue", cursive;
   display: flex;
   margin:  10px;
-  justify-content: space-evenly;
-  position: absolute;
+  justify-content: center;
+  margin-top: 100px;
   font-size: 1.3rem;
-  top: 12vh;
+
 }
 
 .title {
   font-family: "Anton", sans-serif;
   position: absolute;
   margin-top: 30px;
-  font-size: 4vmax;
+  font-size: 3rem;
   letter-spacing: 3px;
   border-bottom: 0.5px solid black;
 }
@@ -541,7 +541,9 @@ html {
 
 .c-hub,
 .fa-linkedin,
-.fa-envelope-open {
+.fa-envelope-open,
+.fa-file-pdf
+ {
   font-size: 5vh;
   padding: 10px;
   box-shadow: -6px -6px 26px 0 rgba(255, 255, 255, 0.83), 6px 6px 16px 0 rgba(217, 210, 200, 0.51);

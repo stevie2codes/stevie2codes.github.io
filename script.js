@@ -3,8 +3,8 @@ $(document).ready(function () {
     let controller = new ScrollMagic.Controller();
 
     new ScrollMagic.Scene({
-            triggerElement: '#experience',
-        })
+        triggerElement: '#experience',
+    })
         .setTween("#experience", 0.5, {
             left: 0
         })
@@ -13,30 +13,31 @@ $(document).ready(function () {
     new ScrollMagic.Scene({
         triggerElement: '#experience',
     })
-    .setTween("#icon-rows", 1, {
-        opacity: 1,  
-    })
-    .addTo(controller);
+        .setTween("#icon-rows", 1, {
+            opacity: 1,
+        })
+        .addTo(controller);
 
     new ScrollMagic.Scene({
-            triggerElement: '#portfolio'
-        })
+        triggerElement: '#portfolio'
+    })
         .setTween("#portfolio", 0.5, {
             left: 0
         })
         .addTo(controller);
-        new ScrollMagic.Scene({
-            triggerElement: '#portfolio',
-        })
-        .setTween("#icon-rows", 1, {
-            opacity: 0,  
-        })
-        .addTo(controller);
+
+    // new ScrollMagic.Scene({
+    //     triggerElement: '#portfolio',
+    // })
+    //     .setTween("#icon-rows", 1, {
+    //         opacity: 0,
+    //     })
+    //     .addTo(controller);
 
     new ScrollMagic.Scene({
-            triggerElement: '#contact',
-            offset: -300
-        })
+        triggerElement: '#contact',
+        offset: -300
+    })
         .setClassToggle('#contact', 'fade-in')
         .addTo(controller);
 
@@ -44,7 +45,7 @@ $(document).ready(function () {
 
 let myButton = document.getElementById('myBtn');
 
-window.onscroll =  () => {
+window.onscroll = () => {
     scrollFunction()
 };
 
