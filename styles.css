@@ -291,18 +291,14 @@ html {
 }
 
 /*navBar Styles*/
-.navbar.navbar-1 .navbar-toggler-icon {
-  background-image: url("https://mdbootstrap.com/img/svg/hamburger6.svg?color=000");
-
-}
 
 .navbar-toggler {
-  box-shadow: -6px -6px 16px 0 rgba(17, 10, 10, 0.8), 6px 6px 6px 0 rgba(28, 26, 25, 0.8);
+  box-shadow: -6px -6px 16px 0 rgba(17, 10, 10, 0.8), 6px 6px 9px 0 rgba(28, 26, 25, 0.603);
   border-radius: 8px;
   z-index: 5000;
-  position: absolute;
-  right: 4px;
-
+  margin-top: 15px; 
+  
+ 
 }
 
 .navbar-toggler:focus,
@@ -349,8 +345,9 @@ html {
 
 .logo {
   width: 80px;
-  position: relative;
+  position: fixed;
   top: -20px;
+  left: -20px;
   z-index: 5;
 
 }
@@ -368,14 +365,14 @@ html {
 .name1 {
   font-family: "Anton", sans-serif;
   margin-right: 10px;
-  font-size: 9vw;
+  font-size: 12vmin;
   letter-spacing: 6px;
 }
 
 .name2 {
   font-family: "Anton", sans-serif;
   margin-left: 10px;
-  font-size: 9vw;
+  font-size: 12vmin;
   letter-spacing: 6px;
 }
 
@@ -411,7 +408,7 @@ html {
   font-family: "Anton", sans-serif;
   position: absolute;
   margin-top: 30px;
-  font-size: 3rem;
+  font-size: 6vmin;
   letter-spacing: 3px;
   border-bottom: 0.5px solid black;
 }
