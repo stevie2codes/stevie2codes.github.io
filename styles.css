@@ -6,17 +6,19 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #EFEEEE;
+  background-color: #efeeee;
 }
 
 /* //background Effects Start// */
 .shape1 {
   width: 28vh;
   height: 28vh;
-  background: linear-gradient(90deg,
-      rgba(131, 58, 180, 1) 0%,
-      rgba(253, 29, 29, 1) 50%,
-      rgba(252, 176, 69, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
   z-index: -2;
   position: absolute;
   border-radius: 50%;
@@ -44,10 +46,12 @@ html {
 .shape2 {
   width: 28vh;
   height: 28vh;
-  background: linear-gradient(90deg,
-      rgba(131, 58, 180, 1) 0%,
-      rgba(253, 29, 29, 1) 50%,
-      rgba(252, 176, 69, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
   border-radius: 50%;
   z-index: -2;
   position: absolute;
@@ -66,10 +70,12 @@ html {
 .shape3 {
   width: 20vh;
   height: 20vh;
-  background: linear-gradient(90deg,
-      rgba(131, 58, 180, 1) 0%,
-      rgba(253, 29, 29, 1) 50%,
-      rgba(252, 176, 69, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
 
   border-radius: 50%;
   z-index: 1;
@@ -88,10 +94,12 @@ html {
 .shape4 {
   width: 20vh;
   height: 20vh;
-  background: linear-gradient(90deg,
-      rgba(131, 58, 180, 1) 0%,
-      rgba(253, 29, 29, 1) 50%,
-      rgba(252, 176, 69, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
   /* border-radius: 50%; */
   /* -webkit-clip-path: polygon(50% 0%,
       100% 25%,
@@ -123,7 +131,6 @@ html {
   z-index: 1000;
   bottom: 0px;
   right: 0;
-
 }
 
 .container {
@@ -135,7 +142,8 @@ html {
   border-radius: 3px;
   display: flex;
   border: 9px solid black;
-  box-shadow: -6px -6px 16px 0px rgba(99, 85, 85, 0.344), 6px 6px 6px 0px rgba(63, 56, 56, 0.481);
+  box-shadow: -6px -6px 16px 0px rgba(99, 85, 85, 0.344),
+    6px 6px 6px 0px rgba(63, 56, 56, 0.481);
   justify-content: center;
   z-index: 2;
   top: -18px;
@@ -171,14 +179,14 @@ html {
 
 #portfolio {
   right: -2000px;
- 
 }
 
 #contact {
   margin-bottom: 80px;
-  background-color: #EFEEEE;
-  box-shadow: -6px -6px 26px 0 rgba(255, 255, 255, 0.83), 6px 6px 16px 0 rgba(217, 210, 200, 0.51);
-  border: 1px solid rgba(255, 255, 255, 0.20);
+  background-color: #efeeee;
+  box-shadow: -6px -6px 26px 0 rgba(255, 255, 255, 0.83),
+    6px 6px 16px 0 rgba(217, 210, 200, 0.51);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   transform: scale(0.5);
   width: 70vw;
   border-radius: 12px;
@@ -191,99 +199,98 @@ html {
 }
 
 /* Scroll magic effects  end*/
-.html{
+.html {
   position: absolute;
   left: 5px;
-  top:100px;
+  top: 100px;
   position: fixed;
 }
-.bootstrap{
+.bootstrap {
   position: absolute;
   left: 5px;
-  top:160px;
+  top: 160px;
   position: fixed;
 }
-.css{
+.css {
   position: absolute;
   left: 5px;
-  top:220px;
+  top: 220px;
   position: fixed;
 }
-.sass{
+.sass {
   position: absolute;
   left: 5px;
-  top:280px;
+  top: 280px;
   position: fixed;
 }
-.javascript{
+.javascript {
   position: absolute;
   left: 5px;
-  top:340px;
+  top: 340px;
   position: fixed;
 }
-.jquery{
+.jquery {
   position: absolute;
   left: 5px;
-  top:400px;
+  top: 400px;
   position: fixed;
 }
-.react{
+.react {
   position: absolute;
   left: 5px;
-  top:460px;
+  top: 460px;
   position: fixed;
 }
-.node{
+.node {
   position: absolute;
   right: 5px;
-  top:180px;
+  top: 180px;
   position: fixed;
 }
-.git{
+.git {
   position: absolute;
   right: 5px;
-  top:240px;
+  top: 240px;
   position: fixed;
 }
-.github{
+.github {
   position: absolute;
   right: 5px;
-  top:300px;
+  top: 300px;
   position: fixed;
 }
-.mongo{
+.mongo {
   position: absolute;
   right: 5px;
-  top:360px;
+  top: 360px;
   position: fixed;
 }
-.express{
+.express {
   position: absolute;
   right: 5px;
-  top:420px;
+  top: 420px;
   position: fixed;
 }
-.sql{
+.sql {
   position: absolute;
   right: 5px;
-  top:480px;
+  top: 480px;
   position: fixed;
 }
-.heroku{
+.heroku {
   position: absolute;
   right: 5px;
-  top:540px;
+  top: 540px;
   position: fixed;
 }
-#icon-rows{
- opacity: 0; 
- 
+#icon-rows {
+  opacity: 0;
 }
 
 .skills {
   font-size: 2vh;
   display: flex;
-  list-style: none; 
+  list-style: none;
 }
 
 .skills li {
@@ -293,12 +300,12 @@ html {
 /*navBar Styles*/
 
 .navbar-toggler {
-  box-shadow: -6px -6px 16px 0 rgba(17, 10, 10, 0.8), 6px 6px 9px 0 rgba(28, 26, 25, 0.603);
+  box-shadow: -3px -3px 9px 0 rgba(17, 10, 10, 0.541),
+    6px 6px 9px 0 rgba(28, 26, 25, 0.603);
   border-radius: 8px;
   z-index: 5000;
-  margin-top: 15px; 
-  
- 
+  margin-top: 15px;
+  width: 3.1rem;
 }
 
 .navbar-toggler:focus,
@@ -317,10 +324,12 @@ html {
 }
 
 .navbar li:hover {
-  background: -webkit-linear-gradient(90deg,
-      rgba(131, 58, 180, 1) 0%,
-      rgba(253, 29, 29, 1) 50%,
-      rgba(252, 176, 69, 1) 100%);
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -349,7 +358,6 @@ html {
   top: -20px;
   left: -20px;
   z-index: 5;
-
 }
 
 .name-contain {
@@ -397,11 +405,10 @@ html {
 .brand-state {
   font-family: "Bebas Neue", cursive;
   display: flex;
-  margin:  10px;
+  margin: 10px;
   justify-content: center;
   margin-top: 100px;
   font-size: 1.3rem;
-
 }
 
 .title {
@@ -436,12 +443,13 @@ html {
 }
 
 .card {
-  box-shadow: -6px -6px 26px 0 rgb(255, 255, 255), 6px 6px 16px 0 rgba(187, 182, 175, 0.657);
-  border: 1px solid rgba(255, 255, 255, 0.20);
+  box-shadow: -6px -6px 26px 0 rgb(255, 255, 255),
+    6px 6px 16px 0 rgba(187, 182, 175, 0.657);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   display: flex;
   margin-top: 60px;
   text-align: center;
-  background-color: #EFEEEE;
+  background-color: #efeeee;
 }
 
 .portfolio .card img {
@@ -460,20 +468,22 @@ html {
 .devcon,
 .far {
   font-size: 1.2rem;
-  background: -webkit-linear-gradient(90deg,
-      rgba(131, 58, 180, 1) 0%,
-      rgba(253, 29, 29, 1) 50%,
-      rgba(252, 176, 69, 1) 100%);
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  box-shadow: -6px -6px 26px 0 rgb(255, 255, 255), 6px 6px 16px 0 rgba(199, 193, 185, 0.51);
-  border: 1px solid rgba(255, 255, 255, 0.20);
+  box-shadow: -6px -6px 26px 0 rgb(255, 255, 255),
+    6px 6px 16px 0 rgba(199, 193, 185, 0.51);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 10px;
   border-radius: 12px;
   margin-right: 5px;
   margin-left: 5px;
-
 }
 
 .cont-icons {
@@ -493,7 +503,6 @@ html {
   font-family: "Bebas Neue", cursive;
   letter-spacing: 2px;
   font-size: 4vh;
-
 }
 
 .phone {
@@ -520,10 +529,12 @@ html {
   position: absolute;
   left: -99px;
   bottom: 0vh;
-  background: -webkit-linear-gradient(90deg,
-      rgba(131, 58, 180, 1) 0%,
-      rgba(253, 29, 29, 1) 50%,
-      rgba(252, 176, 69, 1) 100%);
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -539,12 +550,12 @@ html {
 .c-hub,
 .fa-linkedin,
 .fa-envelope-open,
-.fa-file-pdf
- {
+.fa-file-pdf {
   font-size: 5vh;
   padding: 10px;
-  box-shadow: -6px -6px 26px 0 rgba(255, 255, 255, 0.83), 6px 6px 16px 0 rgba(217, 210, 200, 0.51);
-  border: 1px solid rgba(255, 255, 255, 0.20);
+  box-shadow: -6px -6px 26px 0 rgb(255, 255, 255),
+    6px 6px 16px 0 rgba(146, 144, 142, 0.473);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 5px;
   margin: 10px;
 }
@@ -562,13 +573,14 @@ html {
 
 .foot {
   text-align: center;
-  background-color: #EFEEEE;
+  background-color: #efeeee;
   border-top: 0.5px solid black;
   font-family: "Bebas Neue", cursive;
   padding-top: 22px;
   letter-spacing: 3px;
   height: 50px;
   z-index: 2000;
-  box-shadow: -6px -6px 26px 0 rgba(255, 255, 255, 0.83), 6px 6px 16px 0 rgba(217, 210, 200, 0.51);
-  border: 1px solid rgba(255, 255, 255, 0.20);
+  box-shadow: -6px -6px 26px 0 rgba(255, 255, 255, 0.83),
+    6px 6px 16px 0 rgba(217, 210, 200, 0.51);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
